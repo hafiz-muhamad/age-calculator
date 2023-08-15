@@ -1,0 +1,29 @@
+:root {
+    --purple: hsl(259, 100%, 65%);
+    --red: hsl(0, 100%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --offwhite: hsl(0, 0%, 94%);
+    --grey: hsl(0, 0%, 86%);
+    --smokey: hsl(0, 1%, 44%);
+    --black: hsl(0, 0%, 8%)
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold-italic;
+    src: url(../assets/fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-italic;
+    src: url(../assets/fonts/Poppins-Italic.ttf);
+}
