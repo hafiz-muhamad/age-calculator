@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="input-1">
+          <div class="input-2">
+            
+            <div class="input-rung">
+              <input type="checkbox" class="day-invalid">
+              <label class="title" for="input-day">DAY</label>
+              <input type="text" id="input-day" name="day" placeholder="DD" maxlength="2" autofocus required>
+              <p class="day-warning"></p>
+            </div>
+            <div class="input-rung">
+              <input type="checkbox" class="month-invalid">
+              <label class="title" for="input-month">MONTH</label>
+              <input type="text" id="input-month" name="month" placeholder="MM" maxlength="2" required>
+              <p class="month-warning"></p>
+            </div>
+            <div class="input-rung">
+              <input type="checkbox" class="year-invalid">
+              <label class="title" for="input-year">YEAR</label>
+              <input type="text" id="input-year" name="year" placeholder="YYYY" maxlength="4" required>
+              <p class="year-warning"></p>
+            </div>
+          </div>
+          <div class="input-button">
+            <button class="enter"><img src="./assets/images/icon-arrow.svg"></button>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="result">
+          <div class="result-rung">
+            <p class="result-year"><span class="result-year-input">--</span> years</p>
+          </div>
+          <div class="result-rung">
+            <p class="result-month"><span class="result-month-input">--</span> months</p>
+          </div>
+          <div class="result-rung">
+            <p class="result-day"><span class="result-day-input">--</span> days</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
